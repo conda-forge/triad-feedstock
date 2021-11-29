@@ -1,5 +1,5 @@
 {% set name = "triad" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ee06720139ab62d2a4bddd066f93ad37c731db49d2eaa3e3620c7ef003915614
+  sha256: ae42f847ef94b57dbb5b58368d18e2b0c0eee0767ae843727d90672e17073204
 
 build:
   noarch: python
