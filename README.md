@@ -150,4 +150,5 @@ Feedstock Maintainers
 * [@goodwanghan](https://github.com/goodwanghan/)
 * [@kvnkho](https://github.com/kvnkho/)
 * [@rdmolony](https://github.com/rdmolony/)
+* [@thewchan](https://github.com/thewchan/)
 
