@@ -1,11 +1,11 @@
-About triad
-===========
+About triad-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/triad-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/fugue-project/triad
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/triad-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of python utility functions for Fugue projects
 
