@@ -16,23 +16,29 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
-    - pandas
-    - six
+    - python >=3.7
     - ciso8601
-    - pyarrow
     - fs
+    - importlib_metadata
+    - numpy
+    - pandas >=1.2.0
+    - pyarrow
+    - six
 
 test:
+  source_files:
+    - tests
   imports:
     - triad
   requires:
     - pip
+    - pytest
   commands:
     - pip check
+    - pytest -vvv --capture=tee-sys tests
 
 about:
   home: https://github.com/fugue-project/triad
