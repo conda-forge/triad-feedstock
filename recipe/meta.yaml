@@ -37,6 +37,7 @@ test:
     - cloudpickle
     - pip
     - pytest
+    - pytest-mock
   commands:
     - pip check
     - pytest -vvv --capture=tee-sys tests
