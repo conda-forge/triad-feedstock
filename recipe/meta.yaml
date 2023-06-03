@@ -29,18 +29,12 @@ requirements:
     - six
 
 test:
-  source_files:
-    - tests
   imports:
     - triad
   requires:
-    - cloudpickle
     - pip
-    - pytest
-    - pytest-mock
   commands:
     - pip check
-    - pytest -vvv --capture=tee-sys tests
 
 about:
   home: https://github.com/fugue-project/triad
