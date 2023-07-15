@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - ciso8601
     - fs
+    - fsspec
     - importlib_metadata
     - numpy
     - pandas >=1.2.0
