@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.8
     - fs
-    - fsspec
+    - fsspec >=2022.5.0
     - importlib_metadata
     - numpy
     - pandas >=1.3.5
