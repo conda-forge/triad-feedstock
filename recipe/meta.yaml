@@ -18,11 +18,12 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - fs
     - fsspec >=2022.5.0
-    - importlib_metadata
+    - importlib-metadata
     - numpy
     - pandas >=1.3.5
     - packaging
