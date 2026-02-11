@@ -11,7 +11,7 @@ Summary: A collection of python utility functions for Fugue projects
 
 Development: https://github.com/fugue-project/triad
 
-Documentation: https://triad.readthedocs.org
+Documentation: https://triad.readthedocs.org/
 
 Current build status
 ====================
