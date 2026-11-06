@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: triad
-  version: "1.0.3"
+  version: "1.0.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: b7b052f5ee40805bb9347595af0cf88bdff855967e1fbf36cc108d8fb3832bfe
+  sha256: 37c5d5445356bc280b2a12a1ff9f8668afda125f82a729c48911f44d779e4721
 
 build:
   number: 0
